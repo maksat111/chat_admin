@@ -1,0 +1,128 @@
+.admin-container {
+    background-color: rgba(245, 247, 251, 255);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.right-part {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.chats-container {
+    flex: 1;
+    height: 86vh;
+    width: 24vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    margin: 2vh 2vh 0 1vw;
+    border-radius: 40px;
+    justify-content: center;
+    padding: 2vh;
+    overflow: auto;
+}
+
+.searchBox {
+    justify-content: center;
+}
+
+.noConversation {
+    display: flex;
+    justify-content: center;
+    margin-top: 32vh;
+    font-size: 23px;
+    color: rgb(173, 173, 173);
+}
+
+.active {
+    background-color: rgba(245, 247, 251, 255);
+    border-radius: 20px;
+    transform: scale(0.95);
+}
+
+.chatHover :hover {
+    background-color: rgba(245, 247, 251, 255);
+    border-radius: 20px;
+}
+
+.add_button {
+    color: rgb(150, 150, 150);
+    background-color: rgb(245, 245, 245);
+    border: white;
+    padding: 3px 10px;
+    font-size: 13.5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.add_button:hover {
+    opacity: 0.9;
+    transform: scale(0.99);
+}
+
+.messageBox-container {
+    flex: 1;
+    height: 90.5vh;
+    width: 69vw;
+    background-color: white;
+    margin: 0 0vw 0 0;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    padding: 15px 0 10px 20px;
+    z-index: 1;
+    display: block;
+    align-content: space-between;
+}
+
+div .message_container {
+    overflow: auto;
+    display: block;
+    height: 79.5vh;
+}
+
+.sendMessage {
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+img {
+    width: 95%;
+    height: 100%;
+}
+
+.noConversationText {
+    display: flex;
+    justify-content: center;
+    margin-top: 38vh;
+    font-size: 25px;
+    color: rgb(173, 173, 173);
+}
+
+.messageLoading {
+    margin-top: 35vh;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: 700;
+    color: #0037a3;
+}

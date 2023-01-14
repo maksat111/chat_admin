@@ -1,0 +1,67 @@
+.head-container {
+    margin: -2.5vh 0.9vw 3px 0;
+}
+
+.icon {
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    align-self: center;
+}
+
+.ant-dropdown-menu {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ant-dropdown-menu-item {
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.ant-space-item {
+    font-size: 19px;
+    font-weight: 500;
+    font-family: auto
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -1vh 1vw 7px 1vw;
+    /* padding: 10px 5px; */
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    height: 6vh;
+    border-radius: 17px;
+    background-color: white;
+    /* border-bottom: silver 1px solid; */
+}
+
+p {
+    margin: 0 0 0 5px;
+    font-size: 15px;
+}
+
+.container:hover {
+    cursor: pointer;
+    color: rgb(61, 120, 197);
+}
+
+.container {
+    display: flex;
+    margin: 0 20px;
+    color: #555252;
+}
+
+.logOut-container {
+    display: flex;
+    margin: 0 15px;
+    color: #686262;
+}
+
+.logOut-container:hover {
+    color: rgb(238, 60, 48);
+    cursor: pointer;
+}

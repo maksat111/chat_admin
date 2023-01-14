@@ -1,0 +1,112 @@
+.message_customer {
+    position: relative;
+    font-size: 15px;
+    padding: 15px;
+    margin: 5px 10px;
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    letter-spacing: 0.3px;
+    max-width: 50vw;
+    word-wrap: break-word;
+}
+
+.message_receiver {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 4px 12px;
+    font-size: 15px;
+    background-color: #043596;
+    padding: 15px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.3px;
+    max-width: 50vw;
+    word-wrap: break-word;
+    justify-content: center;
+}
+
+div .chat__timestamp_receiver {
+    font-size: xx-small;
+    display: flex;
+    justify-content: flex-end;
+}
+
+div .chat__timestamp_customer {
+    margin-left: auto;
+    font-size: xx-small;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.admin_name {
+    margin-left: auto;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    font-style: italic;
+}
+
+.message-component {
+    display: flex;
+    align-items: center;
+}
+
+.admin-message-component {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    justify-self: flex-end;
+    transition: 1s;
+}
+
+.admin-message-component:hover .delete-icon {
+    display: flex;
+}
+
+.check {
+    position: relative;
+    display: flex;
+    margin-left: 5px;
+    color: #442b8f;
+}
+
+.noCheck {
+    position: relative;
+    display: flex;
+    margin-left: 5px;
+    color: white;
+}
+
+.message {
+    margin: 8px 10px 8px 0px
+}
+
+.icon {
+    font-size: 10px;
+}
+
+.delete-icon {
+    margin: 7px;
+    color: red;
+    width: 20px;
+    transition: 0.3s;
+    display: none;
+}
+
+.delete-icon:hover {
+    width: 22px;
+}
+
+.deleted {
+    padding: 7px 17px;
+    border-radius: 17px;
+    margin-right: 20px;
+    font-style: italic;
+    color: silver;
+}
+
+.ant-modal-content {
+    border-radius: 15px;
+    top: 18vh;
+}
